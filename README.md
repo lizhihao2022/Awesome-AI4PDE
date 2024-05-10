@@ -2,6 +2,14 @@
 
 Awesome AI4PDE is a curated list of resources and literature focusing on the intersection of Artificial Intelligence and Partial Differential Equations (PDEs). It includes sections on operator learning, physics-informed neural networks, foundation models for PDEs, hybrid methods combining traditional and AI approaches, and tools for equation discovery.
 
+**Contents**
+- [Operator Learning](#operator-learning)
+- [Physics-Informed Neural Networks](#physics-informed-neural-networks)
+- [Foundation Models](#foundation-models)
+- [Hybrid Methods](#hybrid-methods)
+- [Equation Discovery](#equation-discovery)
+- [Survey and Benchmark](#survey-and-benchmark)
+
 ## Operator Learning
 [2024] BENO: Boundary-embedded Neural Operators for Elliptic PDEs: [ICLR 2024](https://arxiv.org/abs/2401.09323)
 
