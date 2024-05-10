@@ -1,4 +1,5 @@
-# Awesome AI4PDE
+# Awesome AI4PDE [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 Awesome AI4PDE is a curated list of resources and literature focusing on the intersection of Artificial Intelligence and Partial Differential Equations (PDEs). It includes sections on operator learning, physics-informed neural networks, foundation models for PDEs, hybrid methods combining traditional and AI approaches, and tools for equation discovery.
 
 ## Operator Learning
