@@ -7,6 +7,8 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 
 [2024] MgNO: Efficient Parameterization of Linear Operators via Multigrid: [ICLR 2024](https://arxiv.org/abs/2310.19809)
 
+[2024] Physics-Informed Neural Operator for Learning Partial Differential Equations: [Journal of Data Science](https://dl.acm.org/doi/10.1145/3648506)
+
 [2023] Neural Operator: Learning Maps Between Function Spaces With Applications to PDEs: [Journal of Machine Learning Research](https://arxiv.org/abs/2108.08481)
 
 [2023] Spherical Fourier Neural Operators: Learning Stable Dynamics on the Sphere: [ICML 2023](https://arxiv.org/abs/2306.03838)
@@ -31,6 +33,10 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 [2024] An operator preconditioning perspective on training in physics-informed machine learning: [ICLR 2024](https://arxiv.org/abs/2310.05801)
 
 [2023] A physics-informed diffusion model for high-fidelity flow field reconstruction: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999123000670)
+
+[2023] Self-adaptive physics-informed neural networks: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999122007859)
+
+[2021] Parallel physics-informed neural networks via domain decomposition: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999121005787)
 
 [2019] Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
 
@@ -62,14 +68,30 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 
 [2019] Learning to Optimize Multigrid PDE Solvers: [ICML 2019](https://proceedings.mlr.press/v97/greenfeld19a.html)
 
+[2018] Hidden physics models: Machine learning of nonlinear partial differential equations: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999117309014)
+
 ## Equation Discovery
+[2022] Physics constrained learning for data-driven inverse modeling from sparse observations [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999121008330)
+
+[2022] Physics-informed neural networks for inverse problems in supersonic flows [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999122004648)
+
 [2020] AI Feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity: [NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/33a854e247155d590883b93bca53848a-Abstract.html)
 
 [2020] AI Feynman: A physics-inspired method for symbolic regression: [Science Advances](https://www.science.org/doi/10.1126/sciadv.aay2631)
 
 [2019] Data-driven discovery of coordinates and governing equations: [PNAS](https://www.pnas.org/doi/full/10.1073/pnas.1906995116)
 
+[2018] PDE-Net: Learning PDEs from Data: [ICML 2018](https://proceedings.mlr.press/v80/long18a.html)
+
+[2017] Data-driven discovery of partial differential equations: [Science Advances](https://www.science.org/doi/10.1126/sciadv.1602614)
+
 [2016] Discovering governing equations from data by sparse identification of nonlinear dynamical systems: [PNAS](https://www.pnas.org/doi/10.1073/pnas.1517384113)
 
 ## Survey and Benchmark
+[2023] A Mathematical Guide to Operator Learning: [arXiv](https://arxiv.org/abs/2312.14688)
+
 [2022] PDEBench: An Extensive Benchmark for Scientific Machine Learning: [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/0a9747136d411fb83f0cf81820d44afb-Abstract-Datasets_and_Benchmarks.html)
+
+[2017] Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations: [arXiv](https://arxiv.org/abs/1711.10566)
+
+[2017] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations: [arXiv](https://arxiv.org/abs/1711.10561)
