@@ -1,4 +1,4 @@
-# Awesome AI for PDE
+# Awesome AI4PDE
 
 
 ## Operator Learning
