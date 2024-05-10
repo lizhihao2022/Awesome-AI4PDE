@@ -92,6 +92,8 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 
 [2022] PDEBench: An Extensive Benchmark for Scientific Machine Learning: [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/0a9747136d411fb83f0cf81820d44afb-Abstract-Datasets_and_Benchmarks.html)
 
+[2021] DeepXDE: A Deep Learning Library for Solving Differential Equations: [SIAM Review](https://epubs.siam.org/doi/10.1137/19M1274067)
+
 [2017] Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations: [arXiv](https://arxiv.org/abs/1711.10566)
 
 [2017] Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations: [arXiv](https://arxiv.org/abs/1711.10561)
