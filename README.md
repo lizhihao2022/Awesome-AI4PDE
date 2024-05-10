@@ -37,13 +37,13 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 
 [2023] DYffusion: A Dynamics-informed Diffusion Model for Spatiotemporal Forecasting: [NeurIPS 2023]()
 
+[2023] Self-Supervised Learning with Lie Symmetries for Partial Differential Equations: [NeurIPS 2023]()
+
 [2023] Geometric Clifford Algebra Networks: [ICML 2023]()
 
 [2023] ClimaX: A foundation model for weather and climate: [ICML 2023]()
 
 ## Hybrid Methods
-[2023] Self-Supervised Learning with Lie Symmetries for Partial Differential Equations: [NeurIPS 2023]()
-
 [2021] Machine learning–accelerated computational fluid dynamics: [PNAS](https://www.pnas.org/doi/10.1073/pnas.2101784118)
 
 [2019] Learning to Optimize Multigrid PDE Solvers [ICML 2019]()
