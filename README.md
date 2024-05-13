@@ -51,6 +51,10 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 [2018] DGM: A deep learning algorithm for solving partial differential equations: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999118305527)
 
 ## Foundation Models
+[2024] Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning: [arXiv](https://arxiv.org/abs/2402.15734)
+
+[2024] Pretraining Codomain Attention Neural Operators for Solving Multiphysics PDEs: [arXiv](https://arxiv.org/abs/2403.12553)
+
 [2023] Learning skillful medium-range global weather forecasting: [Science](https://www.science.org/stoken/author-tokens/ST-1550/full)
 
 [2023] Accurate medium-range global weather forecasting with 3D neural networks: [Nature](https://www.nature.com/articles/s41586-023-06185-3)
