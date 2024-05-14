@@ -102,6 +102,8 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 ## Survey and Benchmark
 [2023] A Mathematical Guide to Operator Learning: [arXiv](https://arxiv.org/abs/2312.14688)
 
+[2022] Scientific Machine Learning through Physics-Informed Neural Networks: Where we are and What's next: [Journal of Scientific Computing](https://link.springer.com/article/10.1007/s10915-022-01939-z)
+
 [2022] PDEBench: An Extensive Benchmark for Scientific Machine Learning: [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/0a9747136d411fb83f0cf81820d44afb-Abstract-Datasets_and_Benchmarks.html)
 
 [2021] DeepXDE: A Deep Learning Library for Solving Differential Equations: [SIAM Review](https://epubs.siam.org/doi/10.1137/19M1274067)
