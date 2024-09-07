@@ -11,6 +11,38 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 - [Survey and Benchmark](#survey-and-benchmark)
 
 ## Operator Learning
+[2024] Accelerating PDE Data Generation via Differential Operator Action in Solution Space [ICML 2024](https://proceedings.mlr.press/v235/dong24d.html)
+
+[2024] Using Uncertainty Quantification to Characterize and Improve Out-of-Domain Learning for PDEs [ICML 2024](https://proceedings.mlr.press/v235/mouli24a.html)
+
+[2024] TENG: Time-Evolving Natural Gradient for Solving PDEs With Deep Neural Nets Toward Machine Precision [ICML 2024](https://proceedings.mlr.press/v235/chen24ad.html)
+
+[2024] Hierarchical Neural Operator Transformer with Learnable Frequency-aware Loss Prior for Arbitrary-scale Super-resolution [ICML 2024](https://proceedings.mlr.press/v235/luo24g.html)
+
+[2024] Harnessing the Power of Neural Operators with Automatically Encoded Conservation Laws [ICML 2024](https://proceedings.mlr.press/v235/liu24p.html)
+
+[2024] Neural Operators with Localized Integral and Differential Kernels [ICML 2024](https://proceedings.mlr.press/v235/liu-schiaffini24a.html)
+
+[2024] Positional Knowledge is All You Need: Position-induced Transformer (PiT) for Operator Learning [ICML 2024](https://proceedings.mlr.press/v235/chen24au.html)
+
+[2024] Improved Operator Learning by Orthogonal Attention [ICML 2024](https://proceedings.mlr.press/v235/xiao24c.html)
+
+[2024] Graph Neural PDE Solvers with Conservation and Similarity-Equivariance [ICML 2024](https://proceedings.mlr.press/v235/horie24a.html)
+
+[2024] Reference Neural Operators: Learning the Smooth Dependence of Solutions of PDEs on Geometric Deformations [ICML 2024](https://proceedings.mlr.press/v235/cheng24c.html)
+
+[2024] Transolver: A Fast Transformer Solver for PDEs on General Geometries [ICML 2024](https://proceedings.mlr.press/v235/wu24r.html)
+
+[2024] Beyond Regular Grids: Fourier-Based Neural Operators on Arbitrary Domains [ICML 2024](https://proceedings.mlr.press/v235/lingsch24a.html)
+
+[2024] HAMLET: Graph Transformer Neural Operator for Partial Differential Equations [ICML 2024](https://proceedings.mlr.press/v235/bryutkin24a.html)
+
+[2024] Equivariant Graph Neural Operator for Modeling 3D Dynamics [ICML 2024](https://proceedings.mlr.press/v235/xu24j.html)
+
+[2024] Neural operators meet conjugate gradients: The FCG-NO method for efficient PDE solving: [ICML 2024](https://proceedings.mlr.press/v235/rudikov24a.html)
+
+[2024] UGrid: An Efficient-And-Rigorous Neural Multigrid Solver for Linear PDEs: [ICML 2024](https://proceedings.mlr.press/v235/han24a.html)
+
 [2024] BENO: Boundary-embedded Neural Operators for Elliptic PDEs: [ICLR 2024](https://arxiv.org/abs/2401.09323)
 
 [2024] MgNO: Efficient Parameterization of Linear Operators via Multigrid: [ICLR 2024](https://arxiv.org/abs/2310.19809)
@@ -38,6 +70,8 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 [2019] DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators: [arXiv](https://arxiv.org/abs/1910.03193)
 
 ## Physics-Informed Neural Networks
+[2024] Parameterized Physics-informed Neural Networks for Parameterized PDEs [ICML 2024](https://proceedings.mlr.press/v235/cho24b.html)
+
 [2024] An operator preconditioning perspective on training in physics-informed machine learning: [ICLR 2024](https://arxiv.org/abs/2310.05801)
 
 [2023] A physics-informed diffusion model for high-fidelity flow field reconstruction: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999123000670)
@@ -51,6 +85,8 @@ Awesome AI4PDE is a curated list of resources and literature focusing on the int
 [2018] DGM: A deep learning algorithm for solving partial differential equations: [Journal of Computational Physics](https://www.sciencedirect.com/science/article/pii/S0021999118305527)
 
 ## Foundation Models
+[2024] DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training: [ICML 2024](https://proceedings.mlr.press/v235/hao24d.html)
+
 [2024] Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning: [arXiv](https://arxiv.org/abs/2402.15734)
 
 [2024] Pretraining Codomain Attention Neural Operators for Solving Multiphysics PDEs: [arXiv](https://arxiv.org/abs/2403.12553)
