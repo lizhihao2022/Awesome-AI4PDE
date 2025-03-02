@@ -10,7 +10,6 @@ More information about the AI4PDE can be found at [AI4PDE](https://ai4pde.notion
 - [4. Analysis](#4-analysis)
 - [5. Data \& Benchmarks](#5-data--benchmarks)
 - [6. Applications](#6-applications)
-- [7.](#7)
 
 ## 1. Solving
 
@@ -1276,9 +1275,9 @@ Tags: Diffusion
 
 Tags: GNN
 
-""
+"This paper proposes a method combining Graph Neural Networks (GNNs) and autodecoder priors to achieve efficient and accurate estimation of initial conditions and physical parameters in PDE-constrained inverse problems."
 
-""
+"该论文提出了结合图神经网络 (GNN) 和自解码器 (autodecoder) 的方法，在偏微分方程 (PDE) 约束的逆问题中实现高效、精确的初始条件与物理参数估计。"
 
 **10. Robust SDE-Based Variational Formulations for Solving Linear PDEs via Deep Learning**: \[[ICML2022](https://icml.cc/virtual/2022/poster/16565)\] \[[CODE]()\] 
 
@@ -1903,14 +1902,3 @@ Tags:
 ""
 
 ""
-
-## 7. 
-
-**1. **: \[[]()\] \[[CODE]()\] 
-
-Tags: 
-
-""
-
-""
-
