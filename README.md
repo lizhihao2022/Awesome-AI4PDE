@@ -1894,4 +1894,3 @@ Tags: Framework
 "JAX MD provides a differentiable physics simulation framework, enabling integration with machine learning models for advanced simulations and optimizations, such as molecular dynamics and meta-optimization."
 
 "JAX MD 提供了一个可微分的物理仿真框架，使得与机器学习模型的集成更加便捷，支持高级仿真和优化任务，如分子动力学和元优化。"
-
