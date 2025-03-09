@@ -277,7 +277,15 @@ Tags: Diffusion, Multi-Resolution, Wavelets
 
 "WDNO 结合小波域扩散与多分辨率训练，在 PDE 仿真与控制任务中表现卓越，尤其擅长处理突变态与高分辨率泛化问题。"
 
-**34. Laplace neural operator for solving differential equations**: \[[Nature Machine Intelligence2024](https://www.nature.com/articles/s42256-024-00844-4)\] \[[CODE](https://github.com/qianyingcao/Laplace-Neural-Operator)\] 
+**34. Blending neural operators and relaxation methods in PDE numerical solvers**: \[[Nature Machine Intelligence2024](https://www.nature.com/articles/s42256-024-00910-x)\] \[[CODE](https://github.com/kopanicakova/HINTS_precond)\] 
+
+Tags: Hybrid, Neural Operator, Spectral Bias
+
+"HINTS combines DeepONet with relaxation methods to create a fast, scalable hybrid solver for PDEs, leveraging spectral bias to achieve uniform convergence across eigenmodes."
+
+"HINTS 结合 DeepONet 与松弛方法，创建了一个快速、可扩展的混合 PDE 求解器，通过利用谱偏差实现特征模态上的统一收敛。"
+
+**35. Laplace neural operator for solving differential equations**: \[[Nature Machine Intelligence2024](https://www.nature.com/articles/s42256-024-00844-4)\] \[[CODE](https://github.com/qianyingcao/Laplace-Neural-Operator)\] 
 
 Tags: Laplace, Neural Operator
 
@@ -285,7 +293,15 @@ Tags: Laplace, Neural Operator
 
 "Laplace 神经算子 (LNO) 通过 拉普拉斯域变换 提升 PDE 求解能力，在外推、可解释性和大规模仿真方面表现优异。"
 
-**35. Neural Manifold Operators for Learning the Evolution of Physical Dynamics**: \[[KDD2024](https://dl.acm.org/doi/10.1145/3637528.3671779)\] \[[CODE](https://github.com/AI4EarthLab/Neural-Manifold-Operators)\] 
+**36. Learning integral operators via neural integral equations**: \[[Nature Machine Intelligence2024](https://www.nature.com/articles/s42256-024-00886-8)\] \[[CODE](https://github.com/emazap7/ANIE)\] 
+
+Tags: Attention, Long-range Dependencies
+
+"The paper introduces Neural Integral Equations (NIE) and Attentional Neural Integral Equations (ANIE) for learning dynamics of non-local integral operators, demonstrating superior performance on complex systems with long-range dependencies."
+
+"本文提出了神经积分方程（NIE）和注意力神经积分方程（ANIE），用于学习非局部积分算子的动态，在处理具有长程依赖的复杂系统时表现优异。"
+
+**37. Neural Manifold Operators for Learning the Evolution of Physical Dynamics**: \[[KDD2024](https://dl.acm.org/doi/10.1145/3637528.3671779)\] \[[CODE](https://github.com/AI4EarthLab/Neural-Manifold-Operators)\] 
 
 Tags: Manifold, Neural Operator
 
@@ -293,7 +309,7 @@ Tags: Manifold, Neural Operator
 
 "Neural Manifold Operator (NMO) 提出了一种自适应降维算子学习方法，实现 高效、物理一致 的 高维物理动力学建模。"
 
-**36. Koopman neural operator as a mesh-free solver of non-linear partial differential equations**: \[[Journal of Computational Physics2024](https://www.sciencedirect.com/science/article/abs/pii/S0021999124004431)\] \[[CODE](https://github.com/Koopman-Laboratory/KoopmanLab)\] 
+**38. Koopman neural operator as a mesh-free solver of non-linear partial differential equations**: \[[Journal of Computational Physics2024](https://www.sciencedirect.com/science/article/abs/pii/S0021999124004431)\] \[[CODE](https://github.com/Koopman-Laboratory/KoopmanLab)\] 
 
 Tags: Neural Operator
 
@@ -301,7 +317,7 @@ Tags: Neural Operator
 
 ""
 
-**37. Koopman operator learning using invertible neural networks**: \[[Journal of Computational Physics2024](https://www.sciencedirect.com/science/article/pii/S0021999124000445)\] \[[CODE]()\] 
+**39. Koopman operator learning using invertible neural networks**: \[[Journal of Computational Physics2024](https://www.sciencedirect.com/science/article/pii/S0021999124000445)\] \[[CODE]()\] 
 
 Tags: Neural Operator
 
@@ -309,7 +325,7 @@ Tags: Neural Operator
 
 ""
 
-**38. BENO: Boundary-embedded Neural Operators for Elliptic PDEs**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18389)\] \[[CODE](https://github.com/AI4Science-WestlakeU/beno.git)\] 
+**40. BENO: Boundary-embedded Neural Operators for Elliptic PDEs**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18389)\] \[[CODE](https://github.com/AI4Science-WestlakeU/beno.git)\] 
 
 Tags: Boundary, GNN, Neural Operator, Transformer
 
@@ -317,7 +333,7 @@ Tags: Boundary, GNN, Neural Operator, Transformer
 
 "BENO 有效地将边界信息嵌入神经算子结构，在处理具有复杂边界的椭圆型 PDE 时显著提升了准确性。"
 
-**39. Better Neural PDE Solvers Through Data-Free Mesh Movers**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18088)\] \[[CODE](https://github.com/Peiyannn/MM-PDE.git)\] 
+**41. Better Neural PDE Solvers Through Data-Free Mesh Movers**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18088)\] \[[CODE](https://github.com/Peiyannn/MM-PDE.git)\] 
 
 Tags: Mesh, Unsupervised
 
@@ -325,7 +341,7 @@ Tags: Mesh, Unsupervised
 
 "通过使用基于 Monge-Ampère 方程的数据无关网格自适应器 (data-free mesh adapter)，本方法无需昂贵的网格标注数据就能显著提升动态系统中的 PDE 解算精度。"
 
-**40. Learning semilinear neural operators: A unified recursive framework for prediction and data assimilation**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18401)\] \[[CODE]()\] 
+**42. Learning semilinear neural operators: A unified recursive framework for prediction and data assimilation**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18401)\] \[[CODE]()\] 
 
 Tags: Neural Operator
 
@@ -333,7 +349,7 @@ Tags: Neural Operator
 
 ""
 
-**41. MgNO: Efficient Parameterization of Linear Operators via Multigrid**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/19328)\] \[[CODE]()\] 
+**43. MgNO: Efficient Parameterization of Linear Operators via Multigrid**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/19328)\] \[[CODE]()\] 
 
 Tags: Multigrid, Neural Operator
 
@@ -341,7 +357,7 @@ Tags: Multigrid, Neural Operator
 
 ""
 
-**42. PINNsFormer: A Transformer-Based Framework For Physics-Informed Neural Networks**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/19142)\] \[[CODE]()\] 
+**44. PINNsFormer: A Transformer-Based Framework For Physics-Informed Neural Networks**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/19142)\] \[[CODE]()\] 
 
 Tags: PINN, Temporal, Transformer, Wavelets
 
@@ -349,7 +365,7 @@ Tags: PINN, Temporal, Transformer, Wavelets
 
 ""
 
-**43. SineNet: Learning Temporal Dynamics in Time-Dependent Partial Differential Equations**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18865)\] \[[CODE]()\] 
+**45. SineNet: Learning Temporal Dynamics in Time-Dependent Partial Differential Equations**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/18865)\] \[[CODE]()\] 
 
 Tags: Temporal
 
@@ -357,7 +373,7 @@ Tags: Temporal
 
 ""
 
-**44. Solving High Frequency and Multi-Scale PDEs with Gaussian Processes**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/17752)\] \[[CODE]()\] 
+**46. Solving High Frequency and Multi-Scale PDEs with Gaussian Processes**: \[[ICLR2024](https://iclr.cc/virtual/2024/poster/17752)\] \[[CODE]()\] 
 
 Tags: Gaussian Processes, High-Frequency, Multi-Scale
 
@@ -365,7 +381,7 @@ Tags: Gaussian Processes, High-Frequency, Multi-Scale
 
 ""
 
-**45. Beyond Regular Grids: Fourier-Based Neural Operators on Arbitrary Domains**: \[[ICML2024](https://proceedings.mlr.press/v235/lingsch24a.html)\] \[[CODE]()\] 
+**47. Beyond Regular Grids: Fourier-Based Neural Operators on Arbitrary Domains**: \[[ICML2024](https://proceedings.mlr.press/v235/lingsch24a.html)\] \[[CODE]()\] 
 
 Tags: Arbitrary Domain, Neural Operator, Spectral Transform
 
@@ -373,7 +389,7 @@ Tags: Arbitrary Domain, Neural Operator, Spectral Transform
 
 ""
 
-**46. DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training**: \[[ICML2024](https://proceedings.mlr.press/v235/hao24d.html)\] \[[CODE]()\] 
+**48. DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training**: \[[ICML2024](https://proceedings.mlr.press/v235/hao24d.html)\] \[[CODE]()\] 
 
 Tags: Neural Operator, Pre-Training, Transformer
 
@@ -381,7 +397,7 @@ Tags: Neural Operator, Pre-Training, Transformer
 
 ""
 
-**47. Equivariant Graph Neural Operator for Modeling 3D Dynamics**: \[[ICML2024](https://proceedings.mlr.press/v235/xu24j.html)\] \[[CODE]()\] 
+**49. Equivariant Graph Neural Operator for Modeling 3D Dynamics**: \[[ICML2024](https://proceedings.mlr.press/v235/xu24j.html)\] \[[CODE]()\] 
 
 Tags: 3D, Neural Operator, Temporal
 
@@ -389,7 +405,7 @@ Tags: 3D, Neural Operator, Temporal
 
 ""
 
-**48. Graph Neural PDE Solvers with Conservation and Similarity-Equivariance**: \[[ICML2024](https://proceedings.mlr.press/v235/horie24a.html)\] \[[CODE]()\] 
+**50. Graph Neural PDE Solvers with Conservation and Similarity-Equivariance**: \[[ICML2024](https://proceedings.mlr.press/v235/horie24a.html)\] \[[CODE]()\] 
 
 Tags: Conservation, GNN
 
@@ -397,7 +413,7 @@ Tags: Conservation, GNN
 
 ""
 
-**49. HAMLET: Graph Transformer Neural Operator for Partial Differential Equations**: \[[ICML2024](https://proceedings.mlr.press/v235/bryutkin24a.html)\] \[[CODE]()\] 
+**51. HAMLET: Graph Transformer Neural Operator for Partial Differential Equations**: \[[ICML2024](https://proceedings.mlr.press/v235/bryutkin24a.html)\] \[[CODE]()\] 
 
 Tags: Arbitrary Domain, Graph, Neural Operator, Transformer
 
@@ -405,7 +421,7 @@ Tags: Arbitrary Domain, Graph, Neural Operator, Transformer
 
 ""
 
-**50. Harnessing the Power of Neural Operators with Automatically Encoded Conservation Laws**: \[[ICML2024](https://proceedings.mlr.press/v235/liu24p.html)\] \[[CODE]()\] 
+**52. Harnessing the Power of Neural Operators with Automatically Encoded Conservation Laws**: \[[ICML2024](https://proceedings.mlr.press/v235/liu24p.html)\] \[[CODE]()\] 
 
 Tags: Conservation, Divergence, Neural Operator
 
@@ -413,7 +429,7 @@ Tags: Conservation, Divergence, Neural Operator
 
 ""
 
-**51. Hierarchical Neural Operator Transformer with Learnable Frequency-aware Loss Prior for Arbitrary-scale Super-resolution**: \[[ICML2024](https://proceedings.mlr.press/v235/luo24g.html)\] \[[CODE]()\] 
+**53. Hierarchical Neural Operator Transformer with Learnable Frequency-aware Loss Prior for Arbitrary-scale Super-resolution**: \[[ICML2024](https://proceedings.mlr.press/v235/luo24g.html)\] \[[CODE]()\] 
 
 Tags: Multi-Scale, Neural Operator, Super-Resolution, Transformer
 
@@ -421,7 +437,7 @@ Tags: Multi-Scale, Neural Operator, Super-Resolution, Transformer
 
 ""
 
-**52. Improved Operator Learning by Orthogonal Attention**: \[[ICML2024](https://proceedings.mlr.press/v235/xiao24c.html)\] \[[CODE]()\] 
+**54. Improved Operator Learning by Orthogonal Attention**: \[[ICML2024](https://proceedings.mlr.press/v235/xiao24c.html)\] \[[CODE]()\] 
 
 Tags: Neural Operator, Regularization, Transformer
 
@@ -429,7 +445,7 @@ Tags: Neural Operator, Regularization, Transformer
 
 ""
 
-**53. Neural operators meet conjugate gradients: The FCG-NO method for efficient PDE solving**: \[[ICML2024](https://proceedings.mlr.press/v235/rudikov24a.html)\] \[[CODE]()\] 
+**55. Neural operators meet conjugate gradients: The FCG-NO method for efficient PDE solving**: \[[ICML2024](https://proceedings.mlr.press/v235/rudikov24a.html)\] \[[CODE]()\] 
 
 Tags: Hybrid, Krylov, Neural Operator, Precondition
 
@@ -437,7 +453,7 @@ Tags: Hybrid, Krylov, Neural Operator, Precondition
 
 ""
 
-**54. Neural Operators with Localized Integral and Differential Kernels**: \[[ICML2024](https://proceedings.mlr.press/v235/liu-schiaffini24a.html)\] \[[CODE]()\] 
+**56. Neural Operators with Localized Integral and Differential Kernels**: \[[ICML2024](https://proceedings.mlr.press/v235/liu-schiaffini24a.html)\] \[[CODE]()\] 
 
 Tags: Multi-Resolution, Neural Operator
 
@@ -445,7 +461,7 @@ Tags: Multi-Resolution, Neural Operator
 
 ""
 
-**55. Parameterized Physics-informed Neural Networks for Parameterized PDEs**: \[[ICML2024](https://proceedings.mlr.press/v235/cho24b.html)\] \[[CODE]()\] 
+**57. Parameterized Physics-informed Neural Networks for Parameterized PDEs**: \[[ICML2024](https://proceedings.mlr.press/v235/cho24b.html)\] \[[CODE]()\] 
 
 Tags: PINN
 
@@ -453,7 +469,7 @@ Tags: PINN
 
 ""
 
-**56. Positional Knowledge is All You Need: Position-induced Transformer (PiT) for Operator Learning**: \[[ICML2024](https://proceedings.mlr.press/v235/chen24au.html)\] \[[CODE]()\] 
+**58. Positional Knowledge is All You Need: Position-induced Transformer (PiT) for Operator Learning**: \[[ICML2024](https://proceedings.mlr.press/v235/chen24au.html)\] \[[CODE]()\] 
 
 Tags: Neural Operator, Transformer
 
@@ -461,7 +477,7 @@ Tags: Neural Operator, Transformer
 
 ""
 
-**57. Reference Neural Operators: Learning the Smooth Dependence of Solutions of PDEs on Geometric Deformations**: \[[ICML2024](https://proceedings.mlr.press/v235/cheng24c.html)\] \[[CODE]()\] 
+**59. Reference Neural Operators: Learning the Smooth Dependence of Solutions of PDEs on Geometric Deformations**: \[[ICML2024](https://proceedings.mlr.press/v235/cheng24c.html)\] \[[CODE]()\] 
 
 Tags: Efficiency, Geometry, Neural Operator
 
@@ -469,7 +485,7 @@ Tags: Efficiency, Geometry, Neural Operator
 
 ""
 
-**58. TENG: Time-Evolving Natural Gradient for Solving PDEs With Deep Neural Nets Toward Machine Precision**: \[[ICML2024](https://proceedings.mlr.press/v235/chen24ad.html)\] \[[CODE]()\] 
+**60. TENG: Time-Evolving Natural Gradient for Solving PDEs With Deep Neural Nets Toward Machine Precision**: \[[ICML2024](https://proceedings.mlr.press/v235/chen24ad.html)\] \[[CODE]()\] 
 
 Tags: Precision, Temporal
 
@@ -477,7 +493,7 @@ Tags: Precision, Temporal
 
 ""
 
-**59. Transolver: A Fast Transformer Solver for PDEs on General Geometries**: \[[ICML2024](https://proceedings.mlr.press/v235/wu24r.html)\] \[[CODE]()\] 
+**61. Transolver: A Fast Transformer Solver for PDEs on General Geometries**: \[[ICML2024](https://proceedings.mlr.press/v235/wu24r.html)\] \[[CODE]()\] 
 
 Tags: Geometry, Transformer
 
@@ -485,7 +501,7 @@ Tags: Geometry, Transformer
 
 ""
 
-**60. UGrid: An Efficient-And-Rigorous Neural Multigrid Solver for Linear PDEs**: \[[ICML2024](https://proceedings.mlr.press/v235/han24a.html)\] \[[CODE]()\] 
+**62. UGrid: An Efficient-And-Rigorous Neural Multigrid Solver for Linear PDEs**: \[[ICML2024](https://proceedings.mlr.press/v235/han24a.html)\] \[[CODE]()\] 
 
 Tags: Convergence Guarantee, Multigrid
 
@@ -493,7 +509,7 @@ Tags: Convergence Guarantee, Multigrid
 
 ""
 
-**61. Vectorized Conditional Neural Fields: A Framework for Solving Time-dependent Parametric Partial Differential Equations**: \[[ICML2024](https://icml.cc/virtual/2024/poster/32919)\] \[[CODE]()\] 
+**63. Vectorized Conditional Neural Fields: A Framework for Solving Time-dependent Parametric Partial Differential Equations**: \[[ICML2024](https://icml.cc/virtual/2024/poster/32919)\] \[[CODE]()\] 
 
 Tags: Neural Fields, Super-Resolution, Temporal, Transformer
 
@@ -501,7 +517,7 @@ Tags: Neural Fields, Super-Resolution, Temporal, Transformer
 
 ""
 
-**62. Alias-Free Mamba Neural Operator**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94139)\] \[[CODE](https://github.com/ZhengJianwei2/Mamba-Neural-Operator)\] 
+**64. Alias-Free Mamba Neural Operator**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94139)\] \[[CODE](https://github.com/ZhengJianwei2/Mamba-Neural-Operator)\] 
 
 Tags: Alias-Free, Mamba, Neural Operator, State-Space
 
@@ -509,7 +525,7 @@ Tags: Alias-Free, Mamba, Neural Operator, State-Space
 
 "Mamba Neural Operator (MambaNO) 引入无混叠状态空间模型 (SSM) 以求解 PDE，在 O(N) 计算复杂度下实现 SOTA 精度，并显著减少参数量和计算开销。"
 
-**63. AROMA: Preserving Spatial Structure for Latent PDE Modeling with Local Neural Fields**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/96233)\] \[[CODE](https://github.com/LouisSerrano/aroma)\] 
+**65. AROMA: Preserving Spatial Structure for Latent PDE Modeling with Local Neural Fields**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/96233)\] \[[CODE](https://github.com/LouisSerrano/aroma)\] 
 
 Tags: Neural Fields, Transformer
 
@@ -517,7 +533,7 @@ Tags: Neural Fields, Transformer
 
 "AROMA 提出基于局部神经场的潜在表示框架，结合 注意力机制 以 保持空间结构 并 高效建模 PDE，通过 扩散训练 提升长时间预测稳定性。"
 
-**64. DiffusionPDE: Generative PDE-Solving under Partial Observation**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/92980)\] \[[CODE](https://jhhuangchloe.github.io/Diffusion-PDE/)\] 
+**66. DiffusionPDE: Generative PDE-Solving under Partial Observation**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/92980)\] \[[CODE](https://jhhuangchloe.github.io/Diffusion-PDE/)\] 
 
 Tags: Diffusion, Inverse
 
@@ -525,7 +541,7 @@ Tags: Diffusion, Inverse
 
 "DiffusionPDE 提出了一种基于扩散模型的生成式 PDE 求解方法，在部分观测场景下 同时补全缺失信息并求解 PDE，显著提升了正问题和逆问题的求解能力。"
 
-**65. Dual Cone Gradient Descent for Training Physics-Informed Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94109)\] \[[CODE](https://github.com/youngsikhwang/Dual-Cone-Gradient-Descent)\] 
+**67. Dual Cone Gradient Descent for Training Physics-Informed Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94109)\] \[[CODE](https://github.com/youngsikhwang/Dual-Cone-Gradient-Descent)\] 
 
 Tags: Optimization, PINN, Training
 
@@ -533,7 +549,7 @@ Tags: Optimization, PINN, Training
 
 "该研究揭示了 PINNs 训练中的梯度失衡问题，并提出双锥梯度下降 (DCGD) 优化方法，以确保梯度更新的平衡性，从而提升稳定性和准确性。"
 
-**66. Fourier Neural Operator with Learned Deformations for PDEs on General Geometries**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/98327)\] \[[CODE]()\] 
+**68. Fourier Neural Operator with Learned Deformations for PDEs on General Geometries**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/98327)\] \[[CODE]()\] 
 
 Tags: Efficiency, Geometry, Neural Operator
 
@@ -541,7 +557,7 @@ Tags: Efficiency, Geometry, Neural Operator
 
 "Geo-FNO 提出了一种几何感知的 Fourier 神经算子，通过学习变换 将非规则域映射到均匀网格，在 任意几何结构的 PDE 求解 任务中 大幅提升计算效率和精度。"
 
-**67. FUSE: Fast Unified Simulation and Estimation for PDEs**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94332)\] \[[CODE](https://github.com/camlab-ethz/FUSE)\] 
+**69. FUSE: Fast Unified Simulation and Estimation for PDEs**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94332)\] \[[CODE](https://github.com/camlab-ethz/FUSE)\] 
 
 Tags: Efficiency, Inverse, Neural Operator
 
@@ -549,7 +565,7 @@ Tags: Efficiency, Inverse, Neural Operator
 
 "FUSE 提出了一个统一的 PDE 正逆问题求解框架，结合 Fourier 神经算子和概率推断，同时提升 物理场预测 和 参数估计 的准确性与计算效率。"
 
-**68. Kronecker-Factored Approximate Curvature for Physics-Informed Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93933)\] \[[CODE]()\] 
+**70. Kronecker-Factored Approximate Curvature for Physics-Informed Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93933)\] \[[CODE]()\] 
 
 Tags: Efficiency, Optimization, PINN
 
@@ -557,7 +573,7 @@ Tags: Efficiency, Optimization, PINN
 
 "该研究提出了一种基于 KFAC 的优化方法，提高 PINNs 训练的可扩展性，大幅降低计算成本，同时保持高精度求解 PDEs。"
 
-**69. Latent Neural Operator for Solving Forward and Inverse PDE Problems**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94908)\] \[[CODE](https://github.com/L-I-M-I-T/LatentNeuralOperator)\] 
+**71. Latent Neural Operator for Solving Forward and Inverse PDE Problems**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/94908)\] \[[CODE](https://github.com/L-I-M-I-T/LatentNeuralOperator)\] 
 
 Tags: Efficiency, Inverse, Neural Operator, Transformer
 
@@ -565,7 +581,7 @@ Tags: Efficiency, Inverse, Neural Operator, Transformer
 
 "LNO 通过 Physics-Cross-Attention 机制 在隐空间学习神经算子，显著提升 PDE 正问题和逆问题的 计算效率与预测精度。"
 
-**70. Multiple Physics Pretraining for Spatiotemporal Surrogate Models**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/96095)\] \[[CODE](https://github.com/PolymathicAI/multiple_physics_pretraining)\] 
+**72. Multiple Physics Pretraining for Spatiotemporal Surrogate Models**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/96095)\] \[[CODE](https://github.com/PolymathicAI/multiple_physics_pretraining)\] 
 
 Tags: Multi-Physics, Pre-Training, Temporal, Transfer Learning
 
@@ -573,7 +589,7 @@ Tags: Multi-Physics, Pre-Training, Temporal, Transfer Learning
 
 "MPP 提出了一种物理代理模型的无任务特定预训练框架，实现跨多物理系统的泛化，并提高 迁移学习 能力。"
 
-**71. Neural Krylov Iteration for Accelerating Linear System Solving**: \[[NeurIPS2024](https://neurips.cc/virtual/2024/poster/94379)\] \[[CODE](https://github.com/smart-JLuo/NeurKItt)\] 
+**73. Neural Krylov Iteration for Accelerating Linear System Solving**: \[[NeurIPS2024](https://neurips.cc/virtual/2024/poster/94379)\] \[[CODE](https://github.com/smart-JLuo/NeurKItt)\] 
 
 Tags: Hybrid, Krylov, Neural Operator
 
@@ -581,7 +597,7 @@ Tags: Hybrid, Krylov, Neural Operator
 
 "本文提出 NeurKItt，一种基于神经算子的 Krylov 迭代加速方法，通过预测线性系统的不变子空间，显著减少计算成本和迭代次数。"
 
-**72. Newton Informed Neural Operator for Solving Nonlinear Partial Differential Equations**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/95997)\] \[[CODE]()\] 
+**74. Newton Informed Neural Operator for Solving Nonlinear Partial Differential Equations**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/95997)\] \[[CODE]()\] 
 
 Tags: Neural Operator, Newton Methods
 
@@ -589,7 +605,7 @@ Tags: Neural Operator, Newton Methods
 
 "NINO 结合 Newton 方法与算子学习，高效求解具有多个解的非线性 PDE，并 显著降低计算成本。"
 
-**73. On conditional diffusion models for PDE simulations**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93694)\] \[[CODE](https://github.com/cambridge-mlg/pdediff)\] 
+**75. On conditional diffusion models for PDE simulations**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93694)\] \[[CODE](https://github.com/cambridge-mlg/pdediff)\] 
 
 Tags: Diffusion
 
@@ -597,7 +613,7 @@ Tags: Diffusion
 
 "本文改进了条件扩散模型在 PDE 预测和数据同化中的表现，引入自回归采样和新训练策略，以提高模型的稳定性和泛化能力。"
 
-**74. P2C2Net: PDE-Preserved Coarse Correction Network for efficient prediction of spatiotemporal dynamics**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93729)\] \[[CODE](https://github.com/intell-sci-comput/P2C2Net)\] 
+**76. P2C2Net: PDE-Preserved Coarse Correction Network for efficient prediction of spatiotemporal dynamics**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93729)\] \[[CODE](https://github.com/intell-sci-comput/P2C2Net)\] 
 
 Tags: Temporal
 
@@ -605,7 +621,7 @@ Tags: Temporal
 
 "本文提出 P2C2Net，一种物理编码的修正学习模型，能够在粗网格和小数据条件下高效预测时空 PDE 动力学。"
 
-**75. Physics-informed Neural Networks for Functional Differential Equations: Cylindrical Approximation and Its Convergence Guarantees**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/95857)\] \[[CODE](https://github.com/TaikiMiyagawa/FunctionalPINN)\] 
+**77. Physics-informed Neural Networks for Functional Differential Equations: Cylindrical Approximation and Its Convergence Guarantees**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/95857)\] \[[CODE](https://github.com/TaikiMiyagawa/FunctionalPINN)\] 
 
 Tags: Convergence Guarantee, High-dimensional, PINN
 
@@ -613,7 +629,7 @@ Tags: Convergence Guarantee, High-dimensional, PINN
 
 "该研究提出了一种基于 PINN 的求解 FDEs 的框架，结合柱面逼近方法，提供收敛性保证，并提升计算效率。"
 
-**76. Physics-Informed Variational State-Space Gaussian Processes**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93352)\] \[[CODE](https://github.com/ohamelijnck/physs_gp)\] 
+**78. Physics-Informed Variational State-Space Gaussian Processes**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93352)\] \[[CODE](https://github.com/ohamelijnck/physs_gp)\] 
 
 Tags: Gaussian Processes, Temporal, Variational Inference
 
@@ -621,7 +637,7 @@ Tags: Gaussian Processes, Temporal, Variational Inference
 
 "本文提出 PHYSS-GP，一种结合物理先验的状态空间高斯过程方法，能够高效处理线性和非线性 PDE，并保持 线性时间复杂度。"
 
-**77. Poseidon: Efficient Foundation Models for PDEs**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/95731)\] \[[CODE](https://github.com/camlab-ethz/poseidon)\] 
+**79. Poseidon: Efficient Foundation Models for PDEs**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/95731)\] \[[CODE](https://github.com/camlab-ethz/poseidon)\] 
 
 Tags: Efficiency, Foundation Model, Multi-Scale, Neural Operator, Transformer
 
@@ -629,7 +645,7 @@ Tags: Efficiency, Foundation Model, Multi-Scale, Neural Operator, Transformer
 
 "POSEIDON 是一个可扩展的 PDE 基础模型，采用多尺度算子 Transformer 和基于半群的训练策略，在未见物理过程上展现出强大的泛化能力。"
 
-**78. Pretraining Codomain Attention Neural Operators for Solving Multiphysics PDEs**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93155)\] \[[CODE](https://github.com/neuraloperator/CoDA-NO)\] 
+**80. Pretraining Codomain Attention Neural Operators for Solving Multiphysics PDEs**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93155)\] \[[CODE](https://github.com/neuraloperator/CoDA-NO)\] 
 
 Tags: Multi-Physics, Neural Operator, Pre-Training, Transformer
 
@@ -637,7 +653,7 @@ Tags: Multi-Physics, Neural Operator, Pre-Training, Transformer
 
 "CoDA-NO 通过通道注意力机制构建神经算子，实现多物理场 PDE 的自监督基础模型，在不同物理系统间展现出强泛化能力。"
 
-**79. RandNet-Parareal: a time-parallel PDE solver using Random Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/96326)\] \[[CODE](https://github.com/Parallel-in-Time-Differential-Equations/RandNet-Parareal)\] 
+**81. RandNet-Parareal: a time-parallel PDE solver using Random Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/96326)\] \[[CODE](https://github.com/Parallel-in-Time-Differential-Equations/RandNet-Parareal)\] 
 
 Tags: Temporal, Time-Parallel
 
@@ -645,7 +661,7 @@ Tags: Temporal, Time-Parallel
 
 "RandNet-Parareal 结合随机神经网络和时间并行求解器，大幅提升时空耦合 PDE 系统的计算效率和可扩展性。"
 
-**80. RoPINN: Region Optimized Physics-Informed Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93144)\] \[[CODE](https://github.com/thuml/RoPINN)\] 
+**82. RoPINN: Region Optimized Physics-Informed Neural Networks**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93144)\] \[[CODE](https://github.com/thuml/RoPINN)\] 
 
 Tags: PINN
 
@@ -653,7 +669,7 @@ Tags: PINN
 
 "RoPINN 通过区域优化提升 PINN 训练，增强泛化能力和高阶约束满足性，无需额外梯度计算。"
 
-**81. Space-Time Continuous PDE Forecasting using Equivariant Neural Fields**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93158)\] \[[CODE]()\] 
+**83. Space-Time Continuous PDE Forecasting using Equivariant Neural Fields**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93158)\] \[[CODE]()\] 
 
 Tags: Meta-Learning, Neural Fields, Temporal
 
@@ -661,7 +677,7 @@ Tags: Meta-Learning, Neural Fields, Temporal
 
 "本文提出了一种空间-时间连续的等变神经场框架，通过引入 PDE 对称性约束，提高泛化能力和数据效率。"
 
-**82. Universal Physics Transformers: A Framework For Efficiently Scaling Neural Operators**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93621)\] \[[CODE](https://ml-jku.github.io/UPT)\] 
+**84. Universal Physics Transformers: A Framework For Efficiently Scaling Neural Operators**: \[[NeurIPS2024](https://nips.cc/virtual/2024/poster/93621)\] \[[CODE](https://ml-jku.github.io/UPT)\] 
 
 Tags: Neural Operator, Transformer
 
@@ -669,7 +685,31 @@ Tags: Neural Operator, Transformer
 
 "本文提出了 Universal Physics Transformers (UPTs)，一种统一且可扩展的神经算子，能够高效处理不同网格和粒子表示的时空 PDE 仿真问题。"
 
-**83. A physics-informed diffusion model for high-fidelity flow field reconstruction**: \[[Journal of Computational Physics2023](https://www.sciencedirect.com/science/article/pii/S0021999123000670)\] \[[CODE]()\] 
+**85. Development of the Senseiver for efficient field reconstruction from sparse observations**: \[[Nature Machine Intelligence2023](https://www.nature.com/articles/s42256-023-00746-x)\] \[[CODE](https://github.com/je-santos/DOI4Senseiver)\] 
+
+Tags: Attention, Reconstruction, Sparse Regression
+
+"The Senseiver leverages attention-based models for efficient and accurate reconstruction of complex spatial fields from sparse sensor data, demonstrating state-of-the-art performance in low sensor coverage scenarios."
+
+"Senseiver 利用基于注意力的模型，从稀疏的传感器数据中高效、准确地重建复杂空间场，在低传感器覆盖率场景中表现出色。"
+
+**86. Encoding physics to learn reaction–diffusion processes**: \[[Nature Machine Intelligence2023](https://www.nature.com/articles/s42256-023-00685-7)\] \[[CODE](https://github.com/isds-neu/PeRCNN)\] 
+
+Tags: Reaction-Diffusion, Spatiotemporal
+
+"The paper proposes a physics-encoded deep learning framework for reaction–diffusion processes, integrating prior physics knowledge directly into the network architecture to improve accuracy and robustness in modeling spatiotemporal dynamics."
+
+"该论文提出了一种物理编码的深度学习框架，通过将先验物理知识直接嵌入网络架构，在反应-扩散过程的时空动态建模中提升精度和稳健性。"
+
+**87. Physics-enhanced deep surrogates for partial differential equations**: \[[Nature Machine Intelligence2023](https://www.nature.com/articles/s42256-023-00761-y)\] \[[CODE](https://github.com/payel79/PEDS)\] 
+
+Tags: Efficiency, Hybrid
+
+"The paper introduces a physics-enhanced deep-surrogate (PEDS) model that integrates low-fidelity physics simulators with neural networks to provide accurate and efficient solutions for complex PDE systems, significantly reducing data requirements and improving model accuracy."
+
+"该论文提出了一种物理增强的深度代理模型 (PEDS)，通过将低保真物理模拟器与神经网络相结合，在复杂PDE系统中提供高效且准确的解法，大幅降低数据需求并提高模型精度。"
+
+**88. A physics-informed diffusion model for high-fidelity flow field reconstruction**: \[[Journal of Computational Physics2023](https://www.sciencedirect.com/science/article/pii/S0021999123000670)\] \[[CODE]()\] 
 
 Tags: Diffusion, Fluid
 
@@ -677,7 +717,7 @@ Tags: Diffusion, Fluid
 
 ""
 
-**84. A Stable and Scalable Method for Solving Initial Value PDEs with Neural Networks**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10864)\] \[[CODE](https://github.com/mfinzi/neural-ivp)\] 
+**89. A Stable and Scalable Method for Solving Initial Value PDEs with Neural Networks**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10864)\] \[[CODE](https://github.com/mfinzi/neural-ivp)\] 
 
 Tags: IVPs
 
@@ -685,7 +725,7 @@ Tags: IVPs
 
 "Neural-IVP 通过优化 ODE 方法，解决了初值问题 (IVP) 求解中的数值不稳定性和计算扩展性问题，使神经网络能够高效、稳定地演化复杂 PDE 动力学。"
 
-**85. Clifford Neural Layers for PDE Modeling**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/11825)\] \[[CODE](https://microsoft.github.io/cliffordlayers/)\] 
+**90. Clifford Neural Layers for PDE Modeling**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/11825)\] \[[CODE](https://microsoft.github.io/cliffordlayers/)\] 
 
 Tags: Geometry, Neural Operator
 
@@ -693,7 +733,7 @@ Tags: Geometry, Neural Operator
 
 "Clifford 神经层引入多向量场和 Clifford 代数，实现几何一致的卷积与傅里叶变换，提高神经 PDE 代理的泛化能力。"
 
-**86. Competitive Physics Informed Networks**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10870)\] \[[CODE]()\] 
+**91. Competitive Physics Informed Networks**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10870)\] \[[CODE]()\] 
 
 Tags: PINN, Training
 
@@ -701,15 +741,7 @@ Tags: PINN, Training
 
 "CPINNs 通过引入对抗训练，使物理约束网络能够自适应学习误差分布，实现比传统 PINNs 高四个数量级的精度。"
 
-**87. Continuous PDE Dynamics Forecasting with Implicit Neural Representations**: \[[ICLR2023](https://openreview.net/forum?id=B73niNjbPs)\] \[[CODE]()\] 
-
-Tags: Neural Fields
-
-""
-
-""
-
-**88. Continuous PDE Dynamics Forecasting with Implicit Neural Representations**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/12133)\] \[[CODE]()\] 
+**92. Continuous PDE Dynamics Forecasting with Implicit Neural Representations**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/12133)\] \[[CODE]()\] 
 
 Tags: Neural Fields
 
@@ -717,7 +749,7 @@ Tags: Neural Fields
 
 "DINO 通过隐式神经表示（INRs）和学习的常微分方程（ODE）分离空间和时间建模，实现任意时空点的 PDE 预测，提升泛化能力。"
 
-**89. Coupled Multiwavelet Operator Learning for Coupled Differential Equations**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10753)\] \[[CODE]()\] 
+**93. Coupled Multiwavelet Operator Learning for Coupled Differential Equations**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10753)\] \[[CODE]()\] 
 
 Tags: Neural Operator, Wavelets
 
@@ -725,7 +757,7 @@ Tags: Neural Operator, Wavelets
 
 "CMWNO 通过多小波变换解耦耦合偏微分方程（PDEs），在 Wavelet 空间中学习和重构积分核，实现高精度求解耦合系统。"
 
-**90. CROM: Continuous Reduced-Order Modeling of PDEs Using Implicit Neural Representations**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/12094)\] \[[CODE](https://crom-pde.github.io/)\] 
+**94. CROM: Continuous Reduced-Order Modeling of PDEs Using Implicit Neural Representations**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/12094)\] \[[CODE](https://crom-pde.github.io/)\] 
 
 Tags: Neural Fields
 
@@ -733,7 +765,7 @@ Tags: Neural Fields
 
 "CROM 采用隐式神经表示 (INR) 进行离散化无关的降阶建模，提高 PDE 求解的计算效率和适应性。"
 
-**91. Factorized Fourier Neural Operators**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10680)\] \[[CODE](https://github.com/alasdairtran/fourierflow)\] 
+**95. Factorized Fourier Neural Operators**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/10680)\] \[[CODE](https://github.com/alasdairtran/fourierflow)\] 
 
 Tags: Efficiency, Neural Operator
 
@@ -741,7 +773,7 @@ Tags: Efficiency, Neural Operator
 
 "F-FNO 引入分解的傅里叶表示和改进的残差连接，大幅提升傅里叶神经算子在PDE模拟中的效率和精度。"
 
-**92. Guiding continuous operator learning through Physics-based boundary constraints**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/11910)\] \[[CODE]()\] 
+**96. Guiding continuous operator learning through Physics-based boundary constraints**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/11910)\] \[[CODE]()\] 
 
 Tags: Boundary, Neural Operator
 
@@ -749,7 +781,7 @@ Tags: Boundary, Neural Operator
 
 "本文提出 BOON，一种边界约束神经算子，通过对算子核进行结构性修改，使得 PDE 计算结果严格满足物理边界条件，从而显著提高解的精度。"
 
-**93. Learning Controllable Adaptive Simulation for Multi-resolution Physics**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/11428)\] \[[CODE](http://snap.stanford.edu/lamp)\] 
+**97. Learning Controllable Adaptive Simulation for Multi-resolution Physics**: \[[ICLR2023](https://iclr.cc/virtual/2023/poster/11428)\] \[[CODE](http://snap.stanford.edu/lamp)\] 
 
 Tags: GNN, RL
 
@@ -757,7 +789,7 @@ Tags: GNN, RL
 
 "本文提出 LAMP，一个基于深度学习的 自适应多分辨率 PDE 模拟框架，通过学习空间分辨率优化策略 提升 PDE 计算效率并降低预测误差。"
 
-**94. A Neural PDE Solver with Temporal Stencil Modeling**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24181)\] \[[CODE](https://github.com/Edward-Sun/TSM-PDE)\] 
+**98. A Neural PDE Solver with Temporal Stencil Modeling**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24181)\] \[[CODE](https://github.com/Edward-Sun/TSM-PDE)\] 
 
 Tags: Fluid, Temporal
 
@@ -765,7 +797,7 @@ Tags: Fluid, Temporal
 
 "本文提出 时间模板建模 (TSM)，一种基于神经网络的 PDE 求解器，可恢复湍流模拟中的时空细节，显著提升计算精度和效率。"
 
-**95. Gaussian Process Priors for Systems of Linear Partial Differential Equations with Constant Coefficients**: \[[ICML2023](https://icml.cc/virtual/2023/poster/25103)\] \[[CODE](https://github.com/haerski/EPGP)\] 
+**99. Gaussian Process Priors for Systems of Linear Partial Differential Equations with Constant Coefficients**: \[[ICML2023](https://icml.cc/virtual/2023/poster/25103)\] \[[CODE](https://github.com/haerski/EPGP)\] 
 
 Tags: Gaussian Processes
 
@@ -773,7 +805,7 @@ Tags: Gaussian Processes
 
 "本文提出 EPGP, 一种基于高斯过程先验的 线性常系数 PDE 求解框架，可作为 PINN 的高效替代方案。"
 
-**96. Geometric Clifford Algebra Networks**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24098)\] \[[CODE]()\] 
+**100. Geometric Clifford Algebra Networks**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24098)\] \[[CODE]()\] 
 
 Tags: Fluid, Geometry
 
@@ -781,7 +813,7 @@ Tags: Fluid, Geometry
 
 "本文提出 GCANs, 一种利用 Clifford 几何代数 进行 刚体变换和流体动力学建模 的神经网络架构。"
 
-**97. GNOT: A General Neural Operator Transformer for Operator Learning**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23985)\] \[[CODE](https://github.com/thu-ml/GNOT)\] 
+**101. GNOT: A General Neural Operator Transformer for Operator Learning**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23985)\] \[[CODE](https://github.com/thu-ml/GNOT)\] 
 
 Tags: Geometry, Multi-Scale, Neural Operator, Transformer
 
@@ -789,7 +821,7 @@ Tags: Geometry, Multi-Scale, Neural Operator, Transformer
 
 "本文提出 GNOT，一种可扩展的 基于 Transformer 的神经算子，能够处理 不规则网格、多输入函数和多尺度 PDE 问题，在算子学习任务上显著提升效率。"
 
-**98. Group Equivariant Fourier Neural Operators for Partial Differential Equations**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23875)\] \[[CODE]()\] 
+**102. Group Equivariant Fourier Neural Operators for Partial Differential Equations**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23875)\] \[[CODE]()\] 
 
 Tags: Neural Operator
 
@@ -797,7 +829,7 @@ Tags: Neural Operator
 
 "本文提出 G-FNO，一种具有 群等变性 的 傅里叶神经算子，在频域中利用对称性信息，从而提升 PDE 求解的泛化能力和精度，尤其在不同离散化尺度下依然表现稳定。"
 
-**99. Implicit Neural Spatial Representations for Time-dependent PDEs**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24695)\] \[[CODE]()\] 
+**103. Implicit Neural Spatial Representations for Time-dependent PDEs**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24695)\] \[[CODE]()\] 
 
 Tags: Neural Fields, Temporal
 
@@ -805,7 +837,7 @@ Tags: Neural Fields, Temporal
 
 "本文提出 INSR，一种用于时间依赖型 PDE 的 隐式神经空间表示，在网络权重中存储空间信息，并通过时间积分更新，实现更高精度、更低内存占用和自适应求解能力。"
 
-**100. Learning Neural PDE Solvers with Parameter-Guided Channel Attention**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24567)\] \[[CODE](https://github.com/nec-research/CAPE-ML4Sci)\] 
+**104. Learning Neural PDE Solvers with Parameter-Guided Channel Attention**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24567)\] \[[CODE](https://github.com/nec-research/CAPE-ML4Sci)\] 
 
 Tags: Autoregressive
 
@@ -813,7 +845,7 @@ Tags: Autoregressive
 
 "本文提出 CAPE，一种 参数引导的通道注意力机制，能够增强神经 PDE 求解器，使其更好地适应 未见过的 PDE 参数，并结合自回归学习策略以提高泛化能力。"
 
-**101. Learning Preconditioners for Conjugate Gradient PDE Solvers**: \[[ICML2023](https://icml.cc/virtual/2023/poster/25127)\] \[[CODE](https://sites.google.com/view/neuralPCG)\] 
+**105. Learning Preconditioners for Conjugate Gradient PDE Solvers**: \[[ICML2023](https://icml.cc/virtual/2023/poster/25127)\] \[[CODE](https://sites.google.com/view/neuralPCG)\] 
 
 Tags: GNN, Precondition
 
@@ -821,7 +853,7 @@ Tags: GNN, Precondition
 
 "本文提出了一种 基于学习的共轭梯度 PDE 求解预条件子，利用 图神经网络（GNN） 和新型损失函数，提高求解器的 效率和泛化能力。"
 
-**102. Meta Learning of Interface Conditions for Multi-Domain Physics-Informed Neural Networks**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24902)\] \[[CODE]()\] 
+**106. Meta Learning of Interface Conditions for Multi-Domain Physics-Informed Neural Networks**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24902)\] \[[CODE]()\] 
 
 Tags: Gaussian Processes, Meta-Learning, PINN
 
@@ -829,7 +861,7 @@ Tags: Gaussian Processes, Meta-Learning, PINN
 
 "本文提出了一种 基于上下文多臂赌博（MAB）的界面条件优化方法 METALIC，用于 多域 PINNs，能够 自适应选择最优界面条件，提高 PDE 求解精度。"
 
-**103. MG-GNN: Multigrid Graph Neural Networks for Learning Multilevel Domain Decomposition Methods**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23616)\] \[[CODE]()\] 
+**107. MG-GNN: Multigrid Graph Neural Networks for Learning Multilevel Domain Decomposition Methods**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23616)\] \[[CODE]()\] 
 
 Tags: GNN, Multigrid, Precondition
 
@@ -837,7 +869,7 @@ Tags: GNN, Multigrid, Precondition
 
 "本文提出了一种 多重网格图神经网络（MG-GNN），用于优化 二层域分解方法（DDMs），可有效泛化到大规模非结构网格 PDE 求解。"
 
-**104. NeuralStagger: Accelerating Physics-constrained Neural PDE Solver with Spatial-temporal Decomposition**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23962)\] \[[CODE]()\] 
+**108. NeuralStagger: Accelerating Physics-constrained Neural PDE Solver with Spatial-temporal Decomposition**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23962)\] \[[CODE]()\] 
 
 Tags: Efficiency, Temporal
 
@@ -845,7 +877,7 @@ Tags: Efficiency, Temporal
 
 "本文提出 NeuralStagger，通过 空间-时间分解 并行训练 低分辨率神经 PDE 求解器，在保证准确性的同时 加速 10∼100 倍 并提供 计算资源-分辨率可调性。"
 
-**105. NUNO: A General Framework for Learning Parametric PDEs with Non-Uniform Data**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23746)\] \[[CODE](https://github.com/thu-ml/NUNO)\] 
+**109. NUNO: A General Framework for Learning Parametric PDEs with Non-Uniform Data**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23746)\] \[[CODE](https://github.com/thu-ml/NUNO)\] 
 
 Tags: Neural Operator, Non-Uniform
 
@@ -853,7 +885,7 @@ Tags: Neural Operator, Non-Uniform
 
 "本文提出 NUNO 框架，通过 K-D 树域分解 解决 非均匀数据 PDE 学习问题，实现 误差降低 (34%–61%)，训练加速 (2×–30×)。"
 
-**106. Q-Flow: Generative Modeling for Differential Equations of Open Quantum Dynamics with Normalizing Flows**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23549)\] \[[CODE]()\] 
+**110. Q-Flow: Generative Modeling for Differential Equations of Open Quantum Dynamics with Normalizing Flows**: \[[ICML2023](https://icml.cc/virtual/2023/poster/23549)\] \[[CODE]()\] 
 
 Tags: Normalizing Flow, Quantum Dynamics
 
@@ -861,7 +893,7 @@ Tags: Normalizing Flow, Quantum Dynamics
 
 "本文提出 Q-Flow，一种基于 归一化流 的生成建模方法，针对 开放量子系统 PDE，在 经典和 ML PDE 求解器 之上实现更高效、更准确的求解。"
 
-**107. Random Grid Neural Processes for Parametric Partial Differential Equations**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24951)\] \[[CODE]()\] 
+**111. Random Grid Neural Processes for Parametric Partial Differential Equations**: \[[ICML2023](https://icml.cc/virtual/2023/poster/24951)\] \[[CODE]()\] 
 
 Tags: Gaussian Processes, Inverse, Variational Inference
 
@@ -869,7 +901,7 @@ Tags: Gaussian Processes, Inverse, Variational Inference
 
 "本文提出 随机网格神经过程，一种 参数化 PDE 的概率学习框架，实现了 网格不变的神经建模和高效的正问题/逆问题求解。"
 
-**108. Solving High-Dimensional PDEs with Latent Spectral Models**: \[[ICML2023](https://icml.cc/virtual/2023/poster/25165)\] \[[CODE](https://github.com/thuml/Latent-Spectral-Models)\] 
+**112. Solving High-Dimensional PDEs with Latent Spectral Models**: \[[ICML2023](https://icml.cc/virtual/2023/poster/25165)\] \[[CODE](https://github.com/thuml/Latent-Spectral-Models)\] 
 
 Tags: High-dimensional
 
@@ -877,7 +909,7 @@ Tags: High-dimensional
 
 "本文提出 潜在谱模型 (LSM)，利用 层次投影网络和神经谱块 在紧凑的潜在空间中高效求解高维 PDE。"
 
-**109. Convolutional Neural Operators for robust and accurate learning of PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71891)\] \[[CODE](https://github.com/bogdanraonic3/ConvolutionalNeuralOperator)\] 
+**113. Convolutional Neural Operators for robust and accurate learning of PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71891)\] \[[CODE](https://github.com/bogdanraonic3/ConvolutionalNeuralOperator)\] 
 
 Tags: Neural Operator
 
@@ -885,7 +917,7 @@ Tags: Neural Operator
 
 "This paper introduces Convolutional Neural Operators (CNOs), a novel adaptation of CNNs for learning PDE solution operators, ensuring robust function-space learning with strong generalization capabilities."
 
-**110. Deep Equilibrium Based Neural Operators for Steady-State PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/70120)\] \[[CODE]()\] 
+**114. Deep Equilibrium Based Neural Operators for Steady-State PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/70120)\] \[[CODE]()\] 
 
 Tags: Neural Operator
 
@@ -893,7 +925,7 @@ Tags: Neural Operator
 
 "本文提出 FNO-DEQ，一种基于权重共享的深度平衡 Fourier 神经算子，用于求解稳态 PDE，具有更低的内存占用、更高的精度，并在噪声数据下展现出更强的鲁棒性。"
 
-**111. Domain Agnostic Fourier Neural Operators**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/70145)\] \[[CODE](https://github.com/ningliu-iga/DAFNO)\] 
+**115. Domain Agnostic Fourier Neural Operators**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/70145)\] \[[CODE](https://github.com/ningliu-iga/DAFNO)\] 
 
 Tags: Boundary, Geometry, Neural Operator
 
@@ -901,7 +933,7 @@ Tags: Boundary, Geometry, Neural Operator
 
 "本文提出 DAFNO，一种扩展的 Fourier 神经算子，显式嵌入域边界信息，使其在不规则几何和拓扑变化情况下仍能精准学习，同时保持计算效率。"
 
-**112. Entropy-dissipation Informed Neural Network for McKean-Vlasov Type PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72246)\] \[[CODE]()\] 
+**116. Entropy-dissipation Informed Neural Network for McKean-Vlasov Type PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72246)\] \[[CODE]()\] 
 
 Tags: PINN
 
@@ -909,7 +941,7 @@ Tags: PINN
 
 "本文提出 EINN，一种基于熵耗散的物理约束神经网络，用于求解具有奇异相互作用核的 McKean-Vlasov 方程，并提供理论保证及优越的实验表现。"
 
-**113. Equivariant Neural Operator Learning with Graphon Convolution**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72298)\] \[[CODE](https://github.com/ccr-cheng/InfGCN-pytorch)\] 
+**117. Equivariant Neural Operator Learning with Graphon Convolution**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72298)\] \[[CODE](https://github.com/ccr-cheng/InfGCN-pytorch)\] 
 
 Tags: Neural Operator
 
@@ -917,7 +949,7 @@ Tags: Neural Operator
 
 "本文提出一种基于 Graphon 卷积 (InfGCN) 的 SE(3) 等变神经算子，在 3D 欧几里得空间中学习映射时能有效捕捉几何信息，并确保等变性。"
 
-**114. Geometry-Informed Neural Operator for Large-Scale 3D PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72670)\] \[[CODE]()\] 
+**118. Geometry-Informed Neural Operator for Large-Scale 3D PDEs**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72670)\] \[[CODE]()\] 
 
 Tags: 3D, Geometry, Neural Operator
 
@@ -925,7 +957,7 @@ Tags: 3D, Geometry, Neural Operator
 
 "本文提出 GINO，一种几何感知神经算子，结合图神经算子 (GNO) 和傅里叶神经算子 (FNO) 以求解大规模 3D PDE，在 CFD 模拟中展现了卓越的计算效率和泛化能力。"
 
-**115. Learning Space-Time Continuous Latent Neural PDEs from Partially Observed States**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72590)\] \[[CODE](https://github.com/yakovlev31/LatentNeuralPDEs)\] 
+**119. Learning Space-Time Continuous Latent Neural PDEs from Partially Observed States**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72590)\] \[[CODE](https://github.com/yakovlev31/LatentNeuralPDEs)\] 
 
 Tags: Temporal, Variational Inference
 
@@ -933,7 +965,7 @@ Tags: Temporal, Variational Inference
 
 "本文提出了一种空间-时间连续的潜变量神经 PDE 模型，可从部分观测数据中学习 PDE 动力学，实现网格无关的高效建模，并在多个任务上优于现有方法。"
 
-**116. Lie Point Symmetry and Physics-Informed Networks**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71137)\] \[[CODE]()\] 
+**120. Lie Point Symmetry and Physics-Informed Networks**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71137)\] \[[CODE]()\] 
 
 Tags: Lie Algebra, PINN
 
@@ -941,7 +973,7 @@ Tags: Lie Algebra, PINN
 
 "本文提出了一种基于 Lie 点对称性的对称性损失，提高了 PINN 在 PDE 求解中的泛化能力和样本效率。"
 
-**117. Nonparametric Boundary Geometry in Physics Informed Deep Learning**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71419)\] \[[CODE]()\] 
+**121. Nonparametric Boundary Geometry in Physics Informed Deep Learning**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71419)\] \[[CODE]()\] 
 
 Tags: Boundary, Geometry, Neural Operator
 
@@ -949,7 +981,7 @@ Tags: Boundary, Geometry, Neural Operator
 
 "本文提出了一种可处理非参数化边界几何的神经算子架构，使得 PDE 解可在不同设计中快速预测并复用。"
 
-**118. Operator Learning with Neural Fields: Tackling PDEs on General Geometries**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72838)\] \[[CODE]()\] 
+**122. Operator Learning with Neural Fields: Tackling PDEs on General Geometries**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72838)\] \[[CODE]()\] 
 
 Tags: Geometry, Neural Fields, Neural Operator
 
@@ -957,7 +989,7 @@ Tags: Geometry, Neural Fields, Neural Operator
 
 "CORAL 提出了一种基于坐标神经场的神经算子方法，使 PDE 求解摆脱离散化约束，可适用于任意几何结构。"
 
-**119. PDE-Refiner: Achieving Accurate Long Rollouts with Neural PDE Solvers**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71688)\] \[[CODE](https://github.com/microsoft/pdearena)\] 
+**123. PDE-Refiner: Achieving Accurate Long Rollouts with Neural PDE Solvers**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71688)\] \[[CODE](https://github.com/microsoft/pdearena)\] 
 
 Tags: Diffusion, Temporal
 
@@ -965,7 +997,7 @@ Tags: Diffusion, Temporal
 
 "PDE-Refiner 受扩散模型启发，通过多步细化增强神经 PDE 求解器的长期稳定性和准确性，有效捕捉全频谱信息。"
 
-**120. Representation Equivalent Neural Operators: a Framework for Alias-free Operator Learning**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72712)\] \[[CODE]()\] 
+**124. Representation Equivalent Neural Operators: a Framework for Alias-free Operator Learning**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72712)\] \[[CODE]()\] 
 
 Tags: Alias-Free, Neural Operator
 
@@ -973,7 +1005,7 @@ Tags: Alias-Free, Neural Operator
 
 "本文提出了一种新的神经算子框架（ReNO），以解决算子学习中由于离散化引入的混叠误差问题，从而确保连续和离散表示之间的一致性。"
 
-**121. Scalable Transformer for PDE Surrogate Modeling**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71008)\] \[[CODE](https://github.com/BaratiLab/FactFormer)\] 
+**125. Scalable Transformer for PDE Surrogate Modeling**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71008)\] \[[CODE](https://github.com/BaratiLab/FactFormer)\] 
 
 Tags: High-dimensional, Transformer
 
@@ -981,7 +1013,7 @@ Tags: High-dimensional, Transformer
 
 "FactFormer 提出了一种可扩展的分解核注意力机制，在高维 PDE 代理建模中实现高效且稳定的性能。"
 
-**122. Separable Physics-Informed Neural Networks**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71036)\] \[[CODE](https://jwcho5576.github.io/spinn.github.io/)\] 
+**126. Separable Physics-Informed Neural Networks**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/71036)\] \[[CODE](https://jwcho5576.github.io/spinn.github.io/)\] 
 
 Tags: Efficiency, High-dimensional, PINN
 
@@ -989,7 +1021,7 @@ Tags: Efficiency, High-dimensional, PINN
 
 "SPINN 通过逐轴计算和前向模式微分，大幅加速高维 PDE 物理引导神经网络的训练，显著提升计算速度和效率。"
 
-**123. Unifying Predictions of Deterministic and Stochastic Physics in Mesh-reduced Space with Sequential Flow Generative Model**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72959)\] \[[CODE]()\] 
+**127. Unifying Predictions of Deterministic and Stochastic Physics in Mesh-reduced Space with Sequential Flow Generative Model**: \[[NeurIPS2023](https://neurips.cc/virtual/2023/poster/72959)\] \[[CODE]()\] 
 
 Tags: Normalizing Flow
 
@@ -997,7 +1029,15 @@ Tags: Normalizing Flow
 
 "本文提出了一种融合自编码器、变换器和正规化流的统一框架，可在降维网格空间中精准预测确定性和随机 PDE 动力系统。"
 
-**124. Message Passing Neural PDE Solvers**: \[[ICLR2022](https://iclr.cc/virtual/2022/poster/7134)\] \[[CODE]()\] 
+**128. Deep transfer operator learning for partial differential equations under conditional shift**: \[[Nature Machine Intelligence2022](https://www.nature.com/articles/s42256-022-00569-2)\] \[[CODE](https://github.com/katiana22/TL-DeepONet)\] 
+
+Tags: Neural Operator, Transfer Learning
+
+"This paper presents a transfer learning framework for task-specific operator learning in PDEs using DeepONet, enabling efficient adaptation to new tasks under conditional shift by minimizing statistical distances in reproducing kernel Hilbert spaces."
+
+"该论文提出了一种基于 DeepONet 的传输学习框架，通过在再生核希尔伯特空间中最小化统计距离，实现了PDE任务下的高效适应性和条件转移下的新任务学习。"
+
+**129. Message Passing Neural PDE Solvers**: \[[ICLR2022](https://iclr.cc/virtual/2022/poster/7134)\] \[[CODE]()\] 
 
 Tags: GNN
 
@@ -1005,7 +1045,7 @@ Tags: GNN
 
 "本文提出了一种基于神经消息传递的全神经 PDE 求解器，提供了跨多个 PDE 的稳定性和泛化能力，在低分辨率场景中优于传统求解器。"
 
-**125. Predicting Physics in Mesh-reduced Space with Temporal Attention**: \[[ICLR2022](https://iclr.cc/virtual/2022/poster/6494)\] \[[CODE]()\] 
+**130. Predicting Physics in Mesh-reduced Space with Temporal Attention**: \[[ICLR2022](https://iclr.cc/virtual/2022/poster/6494)\] \[[CODE]()\] 
 
 Tags: GNN, Multigrid, Temporal, Transformer
 
@@ -1013,7 +1053,7 @@ Tags: GNN, Multigrid, Temporal, Transformer
 
 "本文提出了一种结合 GNN 和 Transformer 的模型，在网格降维空间中通过时间注意力预测物理动态，实现了稳定预测，并在复杂流体动力学任务中优于现有最先进的方法。"
 
-**126. Composing Partial Differential Equations with Physics-Aware Neural Networks**: \[[ICML2022](https://icml.cc/virtual/2022/poster/16235)\] \[[CODE]()\] 
+**131. Composing Partial Differential Equations with Physics-Aware Neural Networks**: \[[ICML2022](https://icml.cc/virtual/2022/poster/16235)\] \[[CODE]()\] 
 
 Tags: FVM
 
@@ -1021,7 +1061,7 @@ Tags: FVM
 
 "本文提出了 FINN，一种组合物理感知神经网络，通过结合有限体积方法和深度学习，在时空 PDEs（包括实际扩散-吸附场景）的建模中表现出优越的精度和泛化能力。"
 
-**127. A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53220)\] \[[CODE]()\] 
+**132. A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53220)\] \[[CODE]()\] 
 
 Tags: Boundary, FEM, Geometry, Hard Constraints
 
@@ -1029,7 +1069,7 @@ Tags: Boundary, FEM, Geometry, Hard Constraints
 
 "本文提出了一种基于混合有限元方法中的“额外场”的统一硬约束框架，在神经网络中稳定且高效地求解几何复杂的偏微分方程 (PDEs)，并自动满足 Dirichlet、Neumann 和 Robin 边界条件。"
 
-**128. Accelerated Training of Physics-Informed Neural Networks (PINNs) using Meshless Discretizations**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53689)\] \[[CODE]()\] 
+**133. Accelerated Training of Physics-Informed Neural Networks (PINNs) using Meshless Discretizations**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53689)\] \[[CODE]()\] 
 
 Tags: PINN
 
@@ -1037,7 +1077,7 @@ Tags: PINN
 
 "通过引入高阶网格无关离散化方法 (RBF-FD)，显著加速了 PINNs 在复杂几何和高阶导数问题上的训练速度，同时保持精度。"
 
-**129. Gold-standard solutions to the Schrödinger equation using deep learning: How much physics do we need?**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/54906)\] \[[CODE]()\] 
+**134. Gold-standard solutions to the Schrödinger equation using deep learning: How much physics do we need?**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/54906)\] \[[CODE]()\] 
 
 Tags: Schrödinger
 
@@ -1045,7 +1085,7 @@ Tags: Schrödinger
 
 "本研究提出了一种新型深度学习架构，用于求解薛定谔方程，在降低能量误差40-70%的同时显著降低计算成本，揭示了过多的物理先验知识可能会降低优化效果的反直觉现象。"
 
-**130. Is $L^2$ Physics Informed Loss Always Suitable for Training Physics Informed Neural Network?**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/55104)\] \[[CODE](https://github.com/LithiumDA/L_inf-PINN)\] 
+**135. Is $L^2$ Physics Informed Loss Always Suitable for Training Physics Informed Neural Network?**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/55104)\] \[[CODE](https://github.com/LithiumDA/L_inf-PINN)\] 
 
 Tags: PINN
 
@@ -1053,7 +1093,7 @@ Tags: PINN
 
 "本文从理论上探讨了物理损失函数在 PINN 训练中的选择，提出了 $L^2$ 损失在 Hamilton-Jacobi-Bellman (HJB) 方程中可能不适用，推荐采用 $L^\infty$ 损失以提高精度，并提出了一种新的 PINN 训练算法。"
 
-**131. Learning Interface Conditions in Domain Decomposition Solvers**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53135)\] \[[CODE]()\] 
+**136. Learning Interface Conditions in Domain Decomposition Solvers**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53135)\] \[[CODE]()\] 
 
 Tags: Domain Decomposition, GNN, Hybrid, Schwarz
 
@@ -1061,7 +1101,7 @@ Tags: Domain Decomposition, GNN, Hybrid, Schwarz
 
 "本文提出了一种基于图卷积神经网络 (GCNNs) 和无监督学习的方法，优化 Schwarz 域分解方法，在结构化和非结构化网格上求解偏微分方程 (PDEs)，显著提升了泛化能力和计算效率。"
 
-**132. Learning Operators with Coupled Attention**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/56114)\] \[[CODE]()\] 
+**137. Learning Operators with Coupled Attention**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/56114)\] \[[CODE]()\] 
 
 Tags: Neural Operator, Transformer
 
@@ -1069,7 +1109,7 @@ Tags: Neural Operator, Transformer
 
 "本文提出了 LOCA，一种结合内核耦合注意力机制的算子学习框架，在解决偏微分方程 (PDEs) 和黑箱函数关系时，展现了出色的性能和在数据稀缺情况下的鲁棒性。"
 
-**133. Learning to Accelerate Partial Differential Equations via Latent Global Evolution**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/55007)\] \[[CODE]()\] 
+**138. Learning to Accelerate Partial Differential Equations via Latent Global Evolution**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/55007)\] \[[CODE]()\] 
 
 Tags: Efficiency
 
@@ -1077,7 +1117,7 @@ Tags: Efficiency
 
 "本文提出了 LE-PDE，一种通过在低维潜在空间中演化动力学加速PDE仿真的方法，实现了显著的加速效果，同时保持了较高的准确性。"
 
-**134. M2N: Mesh Movement Networks for PDE Solvers**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53649)\] \[[CODE]()\] 
+**139. M2N: Mesh Movement Networks for PDE Solvers**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53649)\] \[[CODE]()\] 
 
 Tags: GNN, Spline, Transformer
 
@@ -1085,7 +1125,7 @@ Tags: GNN, Spline, Transformer
 
 "本文提出了 M2N，这是首个基于学习的端到端网格移动框架，在保持数值精度的同时，将网格自适应速度提升了 3-4 个数量级。"
 
-**135. MAgNet: Mesh Agnostic Neural PDE Solver**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/52976)\] \[[CODE](https://github.com/jaggbow/magnet)\] 
+**140. MAgNet: Mesh Agnostic Neural PDE Solver**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/52976)\] \[[CODE](https://github.com/jaggbow/magnet)\] 
 
 Tags: GNN, Mesh, Neural Fields, Zero-Shot
 
@@ -1093,7 +1133,7 @@ Tags: GNN, Mesh, Neural Fields, Zero-Shot
 
 "本文提出了 MAgNet，一种网格无关的神经PDE求解器，结合隐式神经表示和图神经网络，实现对新网格的零样本泛化，并能够进行长期物理一致的预测。"
 
-**136. Meta-Auto-Decoder for Solving Parametric Partial Differential Equations**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53638)\] \[[CODE](https://gitee.com/mindspore/mindscience/tree/master/MindElec/)\] 
+**141. Meta-Auto-Decoder for Solving Parametric Partial Differential Equations**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53638)\] \[[CODE](https://gitee.com/mindspore/mindscience/tree/master/MindElec/)\] 
 
 Tags: Manifold, Mesh, Meta-Learning
 
@@ -1101,7 +1141,7 @@ Tags: Manifold, Mesh, Meta-Learning
 
 "Meta-Auto-Decoder (MAD) 方法通过结合元学习和流形学习，提供了一种网格无关、无监督的深度学习框架，高效求解参数化PDE，并实现对新方程实例的快速适应。"
 
-**137. Neural Stochastic PDEs: Resolution-Invariant Learning of Continuous Spatiotemporal Dynamics**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/54074)\] \[[CODE]()\] 
+**142. Neural Stochastic PDEs: Resolution-Invariant Learning of Continuous Spatiotemporal Dynamics**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/54074)\] \[[CODE]()\] 
 
 Tags: Neural Operator
 
@@ -1109,7 +1149,7 @@ Tags: Neural Operator
 
 "Neural SPDE 模型通过扩展 Neural CDEs 和 Neural Operators，实现了在随机影响下时空动态的分辨率无关学习，表现出比传统求解器更高的准确性和更快的性能。"
 
-**138. NOMAD: Nonlinear Manifold Decoders for Operator Learning**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53042)\] \[[CODE]()\] 
+**143. NOMAD: Nonlinear Manifold Decoders for Operator Learning**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53042)\] \[[CODE]()\] 
 
 Tags: Manifold, Neural Operator
 
@@ -1117,7 +1157,7 @@ Tags: Manifold, Neural Operator
 
 "NOMAD 引入了一种非线性流形解码器，用于算子学习，实现了PDE解流形的高效低维表示，在模型尺寸和训练成本较小的情况下实现了高精度。"
 
-**139. Physics-Embedded Neural Networks: Graph Neural PDE Solvers with Mixed Boundary Conditions**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/54479)\] \[[CODE](https://github.com/yellowshippo/penn-neurips2022)\] 
+**144. Physics-Embedded Neural Networks: Graph Neural PDE Solvers with Mixed Boundary Conditions**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/54479)\] \[[CODE](https://github.com/yellowshippo/penn-neurips2022)\] 
 
 Tags: Boundary, GNN
 
@@ -1125,7 +1165,7 @@ Tags: Boundary, GNN
 
 "Physics-Embedded Neural Networks 将边界条件和全局连接融入 E(n)-等变 GNN 中，实现了复杂物理系统的精确稳定长时间预测。"
 
-**140. Transform Once: Efficient Operator Learning in Frequency Domain**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53622)\] \[[CODE]()\] 
+**145. Transform Once: Efficient Operator Learning in Frequency Domain**: \[[NeurIPS2022](https://neurips.cc/virtual/2022/poster/53622)\] \[[CODE]()\] 
 
 Tags: Frequency Domain, Neural Operator, Temporal
 
@@ -1133,7 +1173,7 @@ Tags: Frequency Domain, Neural Operator, Temporal
 
 "Transform Once (T1) introduces an efficient frequency-domain deep learning method that achieves faster and more accurate PDE solutions through a single frequency transformation, significantly reducing computational costs."
 
-**141. Fourier Neural Operator for Parametric Partial Differential Equations**: \[[ICLR2021](https://iclr.cc/virtual/2021/poster/3281)\] \[[CODE]()\] 
+**146. Fourier Neural Operator for Parametric Partial Differential Equations**: \[[ICLR2021](https://iclr.cc/virtual/2021/poster/3281)\] \[[CODE]()\] 
 
 Tags: Frequency Domain, Neural Operator, Super-Resolution, Zero-Shot
 
@@ -1141,7 +1181,7 @@ Tags: Frequency Domain, Neural Operator, Super-Resolution, Zero-Shot
 
 "Fourier 神经算子 (FNO) 提出了一种在傅里叶空间中参数化积分核的新架构，实现了偏微分方程 (PDE) 族的高效、分辨率无关的解算能力，在湍流模拟中实现了前所未有的精度与速度。"
 
-**142. Learning continuous-time PDEs from sparse data with graph neural networks**: \[[ICLR2021](https://iclr.cc/virtual/2021/poster/3028)\] \[[CODE](https://github.com/yakovlev31/graphpdes_experiments)\] 
+**147. Learning continuous-time PDEs from sparse data with graph neural networks**: \[[ICLR2021](https://iclr.cc/virtual/2021/poster/3028)\] \[[CODE](https://github.com/yakovlev31/graphpdes_experiments)\] 
 
 Tags: GNN, Temporal
 
@@ -1149,7 +1189,7 @@ Tags: GNN, Temporal
 
 "本文提出了一种基于图神经网络 (GNN) 的连续时间模型，可从稀疏和不规则数据中学习完全未知的偏微分方程 (PDE)，在复杂动力系统中表现出色。"
 
-**143. Physics-aware, probabilistic model order reduction with guaranteed stability**: \[[ICLR2021](https://iclr.cc/virtual/2021/poster/2719)\] \[[CODE]()\] 
+**148. Physics-aware, probabilistic model order reduction with guaranteed stability**: \[[ICLR2021](https://iclr.cc/virtual/2021/poster/2719)\] \[[CODE]()\] 
 
 Tags: Model Reduction, Multi-Scale
 
@@ -1157,7 +1197,7 @@ Tags: Model Reduction, Multi-Scale
 
 "本文提出了一种物理感知的概率模型降阶方法，通过引入基于复杂平面的先验模型和物理驱动的潜变量，实现对多尺度动力系统的长期稳定性和预测不确定性的有效建模。"
 
-**144. Solving high-dimensional parabolic PDEs using the tensor train format**: \[[ICML2021](https://icml.cc/virtual/2021/poster/9927)\] \[[CODE]()\] 
+**149. Solving high-dimensional parabolic PDEs using the tensor train format**: \[[ICML2021](https://icml.cc/virtual/2021/poster/9927)\] \[[CODE]()\] 
 
 Tags: High-dimensional, Low-Rank Adaptation
 
@@ -1165,7 +1205,7 @@ Tags: High-dimensional, Low-Rank Adaptation
 
 "本文提出了一种基于张量列 (Tensor Train, TT) 格式的高维抛物型偏微分方程 (PDE) 求解方法，通过低秩结构的利用实现了比神经网络方法更高效的计算与更高的精度。"
 
-**145. Multiwavelet-based Operator Learning for Differential Equations**: \[[NeurIPS2021](https://neurips.cc/virtual/2021/poster/26769)\] \[[CODE](https://github.com/gaurav71531/mwt-operator)\] 
+**150. Multiwavelet-based Operator Learning for Differential Equations**: \[[NeurIPS2021](https://neurips.cc/virtual/2021/poster/26769)\] \[[CODE](https://github.com/gaurav71531/mwt-operator)\] 
 
 Tags: Multi-Resolution, Neural Operator, Wavelets
 
@@ -1173,7 +1213,7 @@ Tags: Multi-Resolution, Neural Operator, Wavelets
 
 "本文提出了一种基于多小波 (Multiwavelet) 的神经算子学习方法，通过多尺度小波变换有效地学习偏微分方程 (PDE) 的算子映射，实现了在低分辨率数据上训练并推广到高分辨率输入的能力。"
 
-**146. Amortized Finite Element Analysis for Fast PDE-Constrained Optimization**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6574)\] \[[CODE]()\] 
+**151. Amortized Finite Element Analysis for Fast PDE-Constrained Optimization**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6574)\] \[[CODE]()\] 
 
 Tags: FEM, Hybrid
 
@@ -1181,7 +1221,7 @@ Tags: FEM, Hybrid
 
 "本文提出了AmorFEA，一种基于神经网络的方法，通过学习直接预测PDE解来加速PDE约束优化，避免了重复的有限元分析计算。"
 
-**147. Combining Differentiable PDE Solvers and Graph Neural Networks for Fluid Flow Prediction**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6802)\] \[[CODE]()\] 
+**152. Combining Differentiable PDE Solvers and Graph Neural Networks for Fluid Flow Prediction**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6802)\] \[[CODE]()\] 
 
 Tags: Fluid, GNN, Hybrid
 
@@ -1189,7 +1229,7 @@ Tags: Fluid, GNN, Hybrid
 
 "本文提出了一种混合方法，将图神经网络与可微CFD模拟器结合，在保留物理真实性的同时，实现了流体流动预测的更好泛化和速度提升。"
 
-**148. Learning Algebraic Multigrid Using Graph Neural Networks**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6369)\] \[[CODE](https://github.com/ilayluz/learning-amg)\] 
+**153. Learning Algebraic Multigrid Using Graph Neural Networks**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6369)\] \[[CODE](https://github.com/ilayluz/learning-amg)\] 
 
 Tags: GNN, Multigrid
 
@@ -1197,7 +1237,7 @@ Tags: GNN, Multigrid
 
 "本文利用图神经网络学习代数多重网格 (AMG) 方法中的延拓算子，从而提高稀疏对称正 (半) 定矩阵求解器的效率。"
 
-**149. Learning to Simulate Complex Physics with Graph Networks**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6849)\] \[[CODE]()\] 
+**154. Learning to Simulate Complex Physics with Graph Networks**: \[[ICML2020](https://icml.cc/virtual/2020/poster/6849)\] \[[CODE]()\] 
 
 Tags: GNN
 
@@ -1205,7 +1245,7 @@ Tags: GNN
 
 "本文提出了图网络模拟器 (GNS) 框架，通过图中学习的消息传递，在流体、刚性固体和可变形材料等复杂物理系统的模拟中展现出强大的泛化能力和稳健性。"
 
-**150. Deep Energy-based Modeling of Discrete-Time Physics**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_98b418276d571e623651fc1d471c7811.html)\] \[[CODE]()\] 
+**155. Deep Energy-based Modeling of Discrete-Time Physics**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_98b418276d571e623651fc1d471c7811.html)\] \[[CODE]()\] 
 
 Tags: Conservation
 
@@ -1213,7 +1253,15 @@ Tags: Conservation
 
 "本文提出了一种基于深度能量的模型，在离散时间的物理模拟中确保能量和质量守恒，为PDE驱动的物理系统建模提供了稳健的方法。"
 
-**151. Learning Composable Energy Surrogates for PDE Order Reduction**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_0332d694daab22e0e0eaf7a5e88433f9.html)\] \[[CODE]()\] 
+**156. Implicit Neural Representations with Periodic Activation Functions**: \[[NeurIPS2020](vsitzmann.github.io/siren/)\] \[[CODE]()\] 
+
+Tags: Neural Fields
+
+"SIRENs leverage periodic activation functions to create continuous implicit neural representations, demonstrating powerful applications in representing complex signals and solving PDEs such as the Eikonal, Poisson, and Helmholtz equations."
+
+"SIRENs 利用周期性激活函数创建连续的隐式神经表示，在表示复杂信号和求解偏微分方程（如 Eikonal、Poisson 和 Helmholtz 方程）方面展示了强大的应用潜力。"
+
+**157. Learning Composable Energy Surrogates for PDE Order Reduction**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_0332d694daab22e0e0eaf7a5e88433f9.html)\] \[[CODE]()\] 
 
 Tags: FEM
 
@@ -1221,7 +1269,7 @@ Tags: FEM
 
 "通过学习可组合的能量代理模型，实现了元材料仿真中PDE的阶次降维，通过模块化组件级建模，实现高效且准确的宏观行为预测。"
 
-**152. Multipole Graph Neural Operator for Parametric Partial Differential Equations**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_4b21cf96d4cf612f239a6c322b10c8fe.html)\] \[[CODE]()\] 
+**158. Multipole Graph Neural Operator for Parametric Partial Differential Equations**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_4b21cf96d4cf612f239a6c322b10c8fe.html)\] \[[CODE]()\] 
 
 Tags: Graph, Neural Operator
 
@@ -1229,7 +1277,7 @@ Tags: Graph, Neural Operator
 
 "本文引入了一种受多极方法启发的图神经网络 (MGKN) 框架，以线性时间复杂度高效捕捉长程相互作用，实现PDE解算符的离散化不变性。"
 
-**153. Numerically Solving Parametric Families of High-Dimensional Kolmogorov Partial Differential Equations via Deep Learning**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_c1714160652ca6408774473810765950.html)\] \[[CODE]()\] 
+**159. Numerically Solving Parametric Families of High-Dimensional Kolmogorov Partial Differential Equations via Deep Learning**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_c1714160652ca6408774473810765950.html)\] \[[CODE]()\] 
 
 Tags: High-dimensional
 
@@ -1237,7 +1285,7 @@ Tags: High-dimensional
 
 "本文提出了一种深度学习方法，通过单个神经网络高效求解高维Kolmogorov PDE的参数族，并展示了其对维度诅咒的鲁棒性。"
 
-**154. Solver-in-the-Loop: Learning from Differentiable Physics to Interact with Iterative PDE-Solvers**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_43e4e6a6f341e00671e123714de019a8.html)\] \[[CODE](https://github.com/tum-pbs/Solver-in-the-Loop)\] 
+**160. Solver-in-the-Loop: Learning from Differentiable Physics to Interact with Iterative PDE-Solvers**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_43e4e6a6f341e00671e123714de019a8.html)\] \[[CODE](https://github.com/tum-pbs/Solver-in-the-Loop)\] 
 
 Tags: Fluid
 
@@ -1245,7 +1293,7 @@ Tags: Fluid
 
 "本文提出了一种可微物理方法，将迭代PDE求解器集成到机器学习模型的训练循环中，使模型能够在训练过程中与求解器交互，从而显著减少数值误差。"
 
-**155. Learning Neural PDE Solvers with Convergence Guarantees**: \[[ICLR2019](https://openreview.net/forum?id=rklaWn0qK7)\] \[[CODE]()\] 
+**161. Learning Neural PDE Solvers with Convergence Guarantees**: \[[ICLR2019](https://openreview.net/forum?id=rklaWn0qK7)\] \[[CODE]()\] 
 
 Tags: Convergence Guarantee
 
@@ -1253,7 +1301,7 @@ Tags: Convergence Guarantee
 
 "本文提出了一种基于神经网络的方法，在保持收敛保证的前提下加速PDE求解器，在2D泊松方程上实现了2-3倍加速，并对新几何形状表现出很好的泛化能力。"
 
-**156. Learning to Optimize Multigrid PDE Solvers**: \[[ICML2019](https://openreview.net/forum?id=SJEDWibdWr)\] \[[CODE]()\] 
+**162. Learning to Optimize Multigrid PDE Solvers**: \[[ICML2019](https://openreview.net/forum?id=SJEDWibdWr)\] \[[CODE]()\] 
 
 Tags: Multigrid, Unsupervised
 
@@ -1887,7 +1935,15 @@ Tags: Medical Imaging
 
 "ResoNet 提出了一种物理驱动的深度学习方法来校正 MRI 中的离共振伪影，利用合成数据进行训练，实现对不同解剖结构和对比度的泛化能力。"
 
-**10. JAX MD: A Framework for Differentiable Physics**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_83d3d4b6c9579515e1679aca8cbc8033.html)\] \[[CODE]()\] 
+**10. Physically constrained generative adversarial networks for improving precipitation fields from Earth system models**: \[[Nature Machine Intelligence2022](https://www.nature.com/articles/s42256-022-00540-1)\] \[[CODE](https://zenodo.org/records/4700270)\] 
+
+Tags: GAN
+
+"This paper introduces a physically constrained GAN to improve precipitation field predictions from Earth System Models by preserving global precipitation sums, achieving enhanced accuracy and generalization to future climate scenarios."
+
+"本文提出了一种具有物理约束的GAN方法，通过保持全球降水总量，实现了对地球系统模型中降水场预测的改进，并在未来气候情景下展现出良好的泛化能力。"
+
+**11. JAX MD: A Framework for Differentiable Physics**: \[[NeurIPS2020](https://nips.cc/virtual/2020/public/poster_83d3d4b6c9579515e1679aca8cbc8033.html)\] \[[CODE]()\] 
 
 Tags: Framework
 
